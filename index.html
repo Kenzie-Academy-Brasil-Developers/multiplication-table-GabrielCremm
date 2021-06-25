@@ -7,17 +7,20 @@
     <title>Tabela de Multiplicacao</title>
 </head>
 <body>
+  <h1> Tabela de Multiplicacao</h1>
     <script> 
 function tabela(n){
   let x =[];                           
   for(let i =0; i <= n; i++){
-    x [i]=[];
+    x [i] =[];
 
-    for(let cont=0; cont <= n; cont++)
-      x[i][cont] = i*j
-      
+    for(let cont=0; cont <= n; cont++){
+      x[i][cont] = i*cont;
+    }
+   
   }
-  console.table(x)
+  
+  console.table(x);
 } 
     </script>
 </body>
